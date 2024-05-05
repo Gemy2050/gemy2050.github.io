@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <div class="box">
+      <h3>Title</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, nihil!</p>
+      <button>Ok</button>
+    </div>
+    <div class="setting">
+      <div class="input-group">
+        <label for="bg">Background</label>
+        <input type="color" name="background-color" id="bg" data-px="">
+      </div>
+      <div class="input-group">
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color" data-px="">
+      </div>
+      <div class="input-group">
+        <label for="borderRadius">Border Radius</label>
+        <input type="range" name="border-radius" id="borderRadius" min="0" max="30" data-px="px">
+      </div>
+      <div class="input-group">
+        <label for="shadow">Shadow</label>
+        <input type="range" name="box-shadow" id="shadow" value="30" min="0" max="50" data-px="px">
+      </div>
+    </div>
+  </div>
+
+  <div class="code-container">
+    <div class="code">
+      <h4>Html Code: <button class="copy">copy</button></h4>
+      <div class="html src-code"></div>
+    </div>
+  
+    <div class="code">
+      <h4>CSS Code: <button class="copy">copy</button></h4>
+      <div class="css src-code"></div>
+    </div>
+  </div>
+
+
+  
+  <script src="main.js"></script>
+</body>
+</html>

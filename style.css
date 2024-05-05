@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    border: none;
+    outline: none;
+  font-family: system-ui;
+  }
+  
+  .layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+  }
+  .layout .box {
+    background-color: #EEE;
+    padding: 15px;
+    width: 450px;
+    text-align: center;
+  }
+  
+  .box button {
+    padding: 10px 20px;
+    background-color: #0075ff;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .layout .setting {
+    background-color: #EEE;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .setting .input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .code-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .code {
+    background-color: #EEE;
+    padding: 15px;
+    width: 350px;
+    font-size: 17px;
+    border-radius: 6px;
+    margin: 20px auto;
+  }
+  .code h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px;
+  }
+  .code h4 .copy {
+    font-size: 14px;
+    background-color: #0075ff;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
